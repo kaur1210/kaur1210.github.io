@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%; 
+}
+
+.wrapper{
+  background-color: #eaf4ff;
+  max-width: 1024px; 
+  margin: 0 auto; 
+  box-shadow: 0px 0px 10px black;
+}
+
+body{
+  background-color: #5d7e53;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+}
+
+p{
+  text-align: justify;
+}
+
+.content, footer{
+  margin: auto 20px;
+}
+
+footer{
+  padding-bottom: 4px;
+}
+
+#banner-image{
+  height: 341px;
+  object-fit: cover;
+  object-position: 50% 70%;
+}
+
+.hero-banner{
+  position: relative;
+}
+
+h1{
+  position: absolute;
+  top: 75%;
+  width: 100%;
+
+  text-align: center;
+  color: rgb(249, 249, 248);
+}
+
+.navigation li a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation ul{
+  padding-left: 0;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.navigation li{
+  display: inline-block;
+  width: 32%;
+}
+
+.navigation li{
+  border-right: 1px solid black;
+}
+
+.navigation li:nth-child(3){
+  border: none;
+}
+
+img#fl-image{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.facts{
+  padding-left: 20px;
+}
+
+.form input, #comment{
+  display: block; 
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.radio input{
+  display: inline;
+  width: auto;
+  margin-right: 50px;
+}
+
+.form{
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.button{
+  margin-top: 20px;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #eaf4ff;
+}
+
+footer{
+  text-align: right;
+}
